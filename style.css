@@ -1,0 +1,43 @@
+
+.container {
+    /* display: grid; */
+    /* border: 1px solid; */
+    display: flex;
+    /* grid-template-columns: auto; */
+    justify-content: center;
+    align-items:center;
+    height: 200px;
+}
+
+.container h1{
+grid-column: 1/5;
+border: 2px solid;
+text-align: center;
+}
+
+.container .container_hijo {
+    border: 1px solid black;
+    padding: 2px;
+    margin: 10px;
+    background-color: aquamarine;
+    width: 120px;
+    height:40px;
+    display: flex;
+}
+
+.container .container_hijo button{
+    cursor: pointer;
+    width: 100%;
+}
+
+.background{
+    margin-top: 10px;
+    height: 350px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 10px;
+    border: solid 2px black;
+}
